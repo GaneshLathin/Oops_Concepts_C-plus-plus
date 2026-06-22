@@ -1,0 +1,53 @@
+| Data Type       | Size (in bytes) | Range (approx)                  |
+| --------------- | --------------- | ------------------------------- |
+| `char`          | 1 byte          | -128 to 127                     |
+| `int`           | 4 bytes         | -2,147,483,648 to 2,147,483,647 |
+| `float`         | 4 bytes         | ~7 decimal digits               |
+| `double`        | 8 bytes         | ~15 decimal digits              |
+| `bool`          | 1 byte          | true / false                    |
+| `short int`     | 2 bytes         | -32,768 to 32,767               |
+| `long int`      | 4 or 8 bytes    | Depends on system               |
+| `long long int` | 8 bytes         | Very large range                |
+| `wchar_t`       | 2 or 4 bytes    | Wide characters                 |
+🔹 Primitive vs Non-Primitive Data Types in C++
+🔹 1. Primitive Data Types
+👉 Definition
+
+Primitive data types are basic built-in data types provided by C++
+
+🔹 Examples
+int
+float
+double
+char
+bool
+🔹 Features
+
+✔️ Predefined
+✔️ Stores single value
+✔️ Fast and simple
+
+🔹 2. Non-Primitive Data Types
+👉 Definition
+
+Non-primitive data types are derived or user-defined types built using primitive types
+
+🔹 Examples
+Arrays → int arr[5]
+Strings → string
+Structures → struct
+Classes → class
+Unions → union
+Pointers → int*
+🔹 Features
+
+✔️ Complex
+✔️ Can store multiple values
+✔️ User-defined / derived
+
+🔥 Final Difference Table
+Feature	Primitive	Non-Primitive
+Type	Basic	Complex
+Defined by	Language	User / Derived
+Stores	Single value	Multiple / structured data
+Example	int, float	array, class, struct
